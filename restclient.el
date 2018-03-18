@@ -613,7 +613,4 @@ Optional argument STAY-IN-WINDOW do not move focus to response buffer if t."
 
 (provide 'restclient)
 
-(eval-after-load 'helm
-  '(ignore-errors (require 'restclient-helm)))
-
 ;;; restclient.el ends here
